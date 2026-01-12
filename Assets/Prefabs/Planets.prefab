@@ -24,9 +24,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307051006780592012}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.27400497, z: -0, w: 0.9617283}
+  m_LocalRotation: {x: 0, y: -0.2740011, z: 0, w: 0.9617294}
   m_LocalPosition: {x: 1.5516, y: 0.3722, z: 7.2652}
-  m_LocalScale: {x: 0.027728, y: 0.027728, z: 0.027728}
+  m_LocalScale: {x: 0.027728003, y: 0.027728, z: 0.027728003}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7247430955059810379}
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2971e4689eb2b474697f5baa6c6f68a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 15
+  _speed: 100
   _centerRotation: {fileID: 8447678843237168590}
 --- !u!1 &2365493593811691869
 GameObject:
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2971e4689eb2b474697f5baa6c6f68a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 10
+  _speed: 100
   _centerRotation: {fileID: 8447678843237168590}
 --- !u!1 &2930014775040041341
 GameObject:
@@ -418,7 +418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2971e4689eb2b474697f5baa6c6f68a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 30
+  _speed: 100
   _centerRotation: {fileID: 1404998619771697337}
 --- !u!1 &4417743656641058436
 GameObject:
@@ -516,7 +516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2971e4689eb2b474697f5baa6c6f68a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 8
+  _speed: 100
   _centerRotation: {fileID: 8447678843237168590}
 --- !u!1 &5680295752077468307
 GameObject:
@@ -636,7 +636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2971e4689eb2b474697f5baa6c6f68a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 5
+  _speed: 100
   _centerRotation: {fileID: 8447678843237168590}
 --- !u!1 &9010906359222082850
 GameObject:
@@ -756,5 +756,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2971e4689eb2b474697f5baa6c6f68a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 40
+  _speed: 100
   _centerRotation: {fileID: 8447678843237168590}
