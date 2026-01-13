@@ -6,6 +6,7 @@ public class Companion : Follower
     [SerializeField] private Transform _target;
     [SerializeField] private float _lengthRay;
     [SerializeField] private Vector3 _offset;
+    [SerializeField] private Vector3 _position;
     
     private void Start()
     {
