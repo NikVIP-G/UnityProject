@@ -20,16 +20,15 @@ public class CounterView : MonoBehaviour
 
     private void OnEnable()
     {
-        _counter.Changed += IncreaseValue;
+        _counter.Changed += OnIncreaseValue;
     }
 
     private void OnDisable()
     {
-        _counter.Changed -= IncreaseValue;
-        StopCoroutine();
+        _counter.Changed -= OnIncreaseValue;
     }
 
-    private void IncreaseValue(float value)
+    private void OnIncreaseValue(float value)
     {
         _coroutine = StartCoroutine(ChangedValueSmoothly(value));
     }
@@ -43,18 +42,18 @@ public class CounterView : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
             float progressValue = Mathf.Clamp01(elapsedTime / _smoothIncreaseDuration);
-            _displayedValue = Mathf.Lerp(startValue, targetValue, progressValue);
+            _displayedValue = Mathf.Lerp(previousValue, target, progressValue);
             _counterText.text = _displayedValue.ToString("");
 
             yield return null;
         }
 
-        _displayedValue = targetValue;
+        _displayedValue = target;
         _counterText.text = _displayedValue.ToString("");
         _coroutine = null;
     }
 
-    private void StopCoroutine()
+    private void Stop()
     {
         if (_counter != null)
             StopCoroutine(_coroutine);
