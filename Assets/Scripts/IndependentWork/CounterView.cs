@@ -31,7 +31,7 @@ public class CounterView : MonoBehaviour
 
     private void IncreaseValue(float value)
     {
-        _coroutine = StartCoroutine(ChangedValueSmoothly(value);
+        _coroutine = StartCoroutine(ChangedValueSmoothly(value));
     }
 
     private IEnumerator ChangedValueSmoothly(float target)
