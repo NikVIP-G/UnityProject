@@ -68,20 +68,20 @@
     <Compile Include="Assets\Scripts\Follower\AdaptiveFolllower.cs" />
     <Compile Include="Assets\Scripts\Builder\BuildPreview.cs" />
     <Compile Include="Assets\Scripts\Follower\Leader.cs" />
-    <Compile Include="Assets\Scripts\Homework\ButtonCounter.cs" />
     <Compile Include="Assets\Scripts\Chest\Chest.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\Follower\Follower.cs" />
     <Compile Include="Assets\Scripts\ExposionBarrel\Barrel.cs" />
+    <Compile Include="Assets\Scripts\IndependentWork\CounterView.cs" />
     <Compile Include="Assets\Scripts\Another\RotationPlanet.cs" />
+    <Compile Include="Assets\Scripts\IndependentWork\Counter.cs" />
     <Compile Include="Assets\Scripts\Another\Mover.cs" />
     <Compile Include="Assets\Scripts\Corutins\Clock.cs" />
     <Compile Include="Assets\Scripts\Chest\ChestOpener.cs" />
     <Compile Include="Assets\Scripts\Follower\Companion.cs" />
     <Compile Include="Assets\Scripts\Corutins\Timer.cs" />
-    <Compile Include="Assets\Scripts\Homework\CounterView.cs" />
+    <Compile Include="Assets\Scripts\IndependentWork\ButtonCounter.cs" />
     <Compile Include="Assets\Scripts\Grenates\Grenade.cs" />
-    <Compile Include="Assets\Scripts\Homework\Counter.cs" />
     <Compile Include="Assets\Scripts\Builder\Block.cs" />
   </ItemGroup>
   <ItemGroup>
