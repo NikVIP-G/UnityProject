@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\IndependentWork\CounterView.cs" />
     <Compile Include="Assets\Scripts\Another\RotationPlanet.cs" />
     <Compile Include="Assets\Scripts\IndependentWork\Counter.cs" />
+    <Compile Include="Assets\Scripts\Utiles.cs" />
     <Compile Include="Assets\Scripts\Another\Mover.cs" />
     <Compile Include="Assets\Scripts\Corutins\Clock.cs" />
     <Compile Include="Assets\Scripts\Chest\ChestOpener.cs" />
